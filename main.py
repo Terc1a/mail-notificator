@@ -14,6 +14,7 @@ username = os.getenv("UNAME")
 password = os.getenv("UPASS")
 imap_server = os.getenv("IMAP_SERVER")
 
+# тест бранча
 
 # Папки, которые НЕ нужно проверять (исключения)
 EXCLUDE_FOLDERS = {

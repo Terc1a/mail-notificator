@@ -1,0 +1,13 @@
+[Unit]
+Description=Mail Notifier
+
+[Service]
+Type=simple
+WorkingDirectory=/home/w0rn/Documents/mail-notifier
+ExecStart=/home/w0rn/Documents/mail-notifier/venv/bin/python /home/w0rn/Documents/mail-notifier/main.py
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
